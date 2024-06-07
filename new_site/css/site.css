@@ -401,7 +401,7 @@ figcaption {
   align-items: center;
   width: 100%;
   max-width: 1170px;
-  height: 90px;
+  height: 120px;
   margin-left: 0;
   margin-right: 0;
   display: flex;
@@ -415,7 +415,7 @@ figcaption {
   align-items: center;
   width: 100%;
   margin-top: -30px;
-  padding: 210px 30px 120px;
+  padding: 210px 30px 50px;
   display: flex;
 }
 
@@ -656,7 +656,7 @@ figcaption {
   background-color: #fafafa;
   justify-content: center;
   align-items: center;
-  padding: 60px 30px;
+  padding: 30px 30px;
   display: flex;
 }
 
@@ -692,28 +692,6 @@ figcaption {
   height: 1px;
 }
 
-._2-row-image.cc-bottom {
-  margin-right: 0;
-}
-
-._2-row-image.cc-row-spacing {
-  margin-right: 100px;
-}
-
-._2-row-text {
-  max-width: 370px;
-  margin-right: 100px;
-}
-
-._2-row-text.cc-bottom {
-  margin-right: 100px;
-}
-
-._2-row-text.cc-bottom.cc-reverse {
-  margin-left: 100px;
-  margin-right: 0;
-}
-
 .row {
   flex: 1;
   display: flex;
@@ -732,47 +710,13 @@ figcaption {
   flex-direction: row-reverse;
 }
 
-._2-row-action-text {
-  text-align: center;
-  flex-flow: row;
+.social-span{
+  display: flex;
   justify-content: center;
-  align-items: center;
-  margin-top: 110px;
 }
 
-.cta {
-  background-color: #fafafa;
-  justify-content: center;
-  align-items: center;
-  padding: 150px 30px;
-  display: flex;
-}
-
-.cta-line {
-  background-color: var(--medium-sea-green);
-  width: 30px;
-  height: 2px;
-  margin-left: 20px;
-}
-
-.cta-line.cc-header {
-  background-color: #fff;
-}
-
-.cta-column {
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  align-items: center;
-  width: 50%;
-  display: flex;
-}
-
-.cta-left-top {
-  flex: 1;
-  justify-content: flex-start;
-  align-items: center;
-  margin-bottom: 15px;
-  display: flex;
+.social-span a{
+  padding: 5px;
 }
 
 .footer {
@@ -923,6 +867,10 @@ figcaption {
     height: auto;
   }
 
+  .features .container .words {
+    display: block;
+  }
+
   .collection-list {
     align-items: stretch;
     margin-left: -5px;
@@ -990,6 +938,10 @@ figcaption {
     height: auto;
   }
 
+  .features .container .words {
+    display: block;
+  }
+
   .collection-list {
     flex-direction: column;
     margin: -10px 0;
@@ -1026,6 +978,10 @@ figcaption {
   .h2 {
     font-size: 20px;
     line-height: 30px;
+  }
+
+  .features .container .words {
+    display: block;
   }
 
   .footer-column {
