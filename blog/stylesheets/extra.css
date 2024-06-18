@@ -1,0 +1,39 @@
+@media screen and (max-width: 76.234375em) {
+  .md-nav--primary .md-nav__title {
+    display: block;
+    height: 3.6rem;
+  }
+
+    html [data-md-color-primary=black] .md-nav--primary .md-nav__title[for=__drawer] {
+        background-color: #F9F5DB !important;
+    }
+}
+
+.md-header {
+  background-color: #F9F5DB !important;
+}
+
+.md-header__button {
+  color: #000;
+}
+
+.md-nav__title {
+  display: none;
+}
+
+.md-header__button.md-logo {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 40%;
+  width: 40%;
+}
+
+.md-header__title>.md-header__ellipsis {
+  display: none;
+}
